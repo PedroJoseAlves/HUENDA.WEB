@@ -112,9 +112,12 @@ pointer-events: none;
 }
 #hamburguer {
     display: block;
-    color: #29552C;
+    color: white;
     width: 25px;
     border-top: 4px solid;
+}
+.navbar.sticky #hamburguer {
+    color: #29552C;
 }
 
 #hamburguer::after,
