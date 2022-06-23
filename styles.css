@@ -112,7 +112,7 @@ pointer-events: none;
 }
 #hamburguer {
     display: block;
-    color:white;
+    color:#fff;
     width: 25px;
     border-top: 4px solid;
 }
