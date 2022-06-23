@@ -60,20 +60,25 @@ html{
 }
 
 .navbar .menu li a {
-    color: #29552C;
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
     margin-left: 25px;
     transition: color 0.3s ease;
     transform: scale(1.3);
+    border-bottom: 4px solid #29552C;
+    padding-bottom: 5px;
 }
 
+.navbar.sticky .menu li a {
+    color: #29552C;
+}
 .navbar.sticky .menu li a:hover {
     color: #572100;
 }
 
 .navbar .menu li a:hover {
-    color: white;
+    color: #29552C;
  
 }
 
@@ -112,9 +117,12 @@ pointer-events: none;
 }
 #hamburguer {
     display: block;
-    color: #fff;
+    color:#fff;
     width: 25px;
     border-top: 4px solid;
+}
+.navbar.sticky #hamburguer {
+    color: #29552C;
 }
 
 #hamburguer::after,
