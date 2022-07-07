@@ -22,13 +22,9 @@
     </button>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#"><img src="./logo.png" width="150" alt=""></a></div>
+            <div class="logo"><a href="index.html"><img src="./logo.png" width="150" alt=""></a></div>
             <ul class="menu">
                 <li><a id="clHome" href="index.html">Home</a></li>
-                <li><a id="clAbout" href="#about">Sobre nós</a></li>
-                <li><a id="clserv" href="#services">Serviços</a></li>
-                <li><a id="clskil" href="#skills">Segurança</a></li>
-                <li><a id="clteam" href="#teams">Equipa</a></li>
                 <li><a id="clcontact" href="#contact">Contactos</a></li>
             </ul>
             <!--to mobile -->
@@ -56,7 +52,8 @@
   
   
     <!-- contact sectio start -->
-    <section class="contact" id="contact">
+     <!-- contact sectio start -->
+     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">ENTRE EM CONTATO CONNOSCO </h2>
             <div class="contact-content">
@@ -66,16 +63,9 @@
                         rerum enim nostrum corrupti assumenda, nobis quod earum quibusdam veniam qui exercitationem
                         nihil, sunt at praesentium laboriosam? Quidem, sunt laborum? Voluptatum, eveniet. Maiores quo
                         iusto, tenetur, sapiente vero suscipit velit vitae eos laboriosam ex facilis amet </p>
-                    <div class="icons">
+                    <div class="icons">                   
                         <div class="row">
-                            <img src="./logo.png" width="50px" height="50px" alt="user">
-                            <div class="info">
-                                <div class="head"> Name</div>
-                                <div class="sub-title">UENDA EM SEGURANÇA</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fa-solid fa-location-dot"></i>                        
+                            <i class="fa-solid fa-location-dot"></i>
                             <div class="info">
                                 <div class="head"> Address</div>
                                 <div class="sub-title">Luanda, Golf II, Defronte ao XYAMI</div>
@@ -89,27 +79,20 @@
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fa-brands fa-facebook"></i>
+                           <a href="https://www.facebook.com/profile.php?id=100078652582640"> <i class="fa-brands fa-facebook"></i></a>
                             <div class="info">
                                 <div class="head"> facebook</div>
-                                <div class="sub-title">xxxxxxxxxxxxxxx</div>
+                                <div class="sub-title">Uenda Kwaku</div>
                             </div>
-                        </div>
+                        </div>                      
                         <div class="row">
-                          <i class="fa-brands fa-whatsapp-square"></i>
-                            <div class="info">
-                                <div class="head"> Whatsap</div>
-                                <div class="sub-title">xxxxxxxxxxxxxxx</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fa-brands fa-instagram-square"></i>
+                          <a href="https://instagram.com/uendaoficial?igshid=YmMyMTA2M2Y="> <i class="fa-brands fa-instagram-square"></i></a> 
                             <div class="info">
                                 <div class="head"> Instagran</div>
-                                <div class="sub-title">xxxxxxxxxx</div>
+                                <div class="sub-title">Uenda_Kwaku</div>
                             </div>
                         </div>
-                        <div class="row">                           
+                        <div class="row">
                             <div class="info">
                                 <div class="head"> NIF</div>
                                 <div class="sub-title"> 5001063499</div>
@@ -120,22 +103,24 @@
                 </div>
                 <div class="column right">
                     <div class="text"> ESCREVA PARA NóS</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/uenda-oficial@hotmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="email" required>
+                                <input type="email" name="email" placeholder="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="subject" required>
+                            <input type="" name="subject" placeholder="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea id="30" cols="30" placeholder="Describle project..." rows="10"
+                            <textarea id="30" cols="30" name="message"  placeholder="Describle project..." rows="10"
                                 required></textarea>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://pedrojosealves.github.io/HUENDA.WEB/thanksUenda.html">
                         <div class="button">
                             <button type="submit"> Send Message</button>
 
