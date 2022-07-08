@@ -188,11 +188,100 @@ pointer-events: none;
 }
 
 .home .text-1 {
-    font-size: 40px;
-    color: white;
+    font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    opacity: 0;  
+    width: 100%;
+    position:absolute;
+   
 }
+.home .b1{
+    animation: ani1 30s infinite;
+}
+.home .b2{
+    animation: ani2 30s infinite;
+}
+.home .b3{
+    animation: ani3 30s infinite;
+}
+.home .b4{
+    animation: ani4 30s infinite;
+}
+.home .b5{
+    animation: ani5 30s infinite;
+  
+}
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    
+    }
+    10%{
+        opacity: 1;
+ 
+    }
+    20%{
+        opacity: 0;
+
+    }
+}
+@keyframes ani2{
+    20%{
+        opacity: 0;
+
+    }
+    30%{
+        opacity: 1;
+
+    }
+    40%{
+        opacity: 0;
+
+    }
+}
+@keyframes ani3{
+    40%{
+        opacity: 0;
+        display: block;
+    }
+    50%{
+        opacity: 1;
+        display: block;
+    }
+    60%{
+        opacity: 0;
+        display: block;
+    }
+}
+@keyframes ani4{
+    60%{
+        opacity: 0;
+        display: block;
+    }
+    70%{
+        opacity: 1;
+        display: block;
+    }
+    80%{
+        opacity: 0;
+        display: block;
+    }
+}
+@keyframes ani5{
+    80%{
+        opacity: 0;
+        display: block;
+    }
+    90%{
+        opacity: 1;
+        display: block;
+    }
+    100%{
+        opacity: 0;
+        display: block;
+    }
+}
+
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
@@ -703,6 +792,14 @@ footer span a:hover {
         width: 350px;
 
     }
+    .home .text-1 {
+        font-size: 30px;
+        font-weight: bold;
+        opacity: 0;  
+        position: relative;
+       
+       
+    }
 }
 
 @media(max-width:991px) {
@@ -828,5 +925,13 @@ footer span a:hover {
     .home .home-content img {
         width: 300px;
     }  
+    .home .text-1 {
+        font-size: 30px;
+        font-weight: bold;
+        opacity: 0;  
+        position: relative;
+       
+       
+    }
 
 }
