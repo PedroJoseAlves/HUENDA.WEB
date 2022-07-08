@@ -186,13 +186,18 @@ pointer-events: none;
     margin-top: 106px !important;
    
 }
-
+.home .home-title{
+    margin: auto;     
+    height: 100px;
+  
+}
 .home .text-1 {
     font-size: 30px;
     font-weight: bold;
-    opacity: 0;  
-    width: 100%;
-    position:absolute;
+    color: #fff;  
+    opacity: 0;
+    position: absolute;
+   
    
 }
 .home .b1{
@@ -792,14 +797,6 @@ footer span a:hover {
         width: 350px;
 
     }
-    .home .text-1 {
-        font-size: 30px;
-        font-weight: bold;
-        opacity: 0;  
-        position: relative;
-       
-       
-    }
 }
 
 @media(max-width:991px) {
@@ -925,13 +922,4 @@ footer span a:hover {
     .home .home-content img {
         width: 300px;
     }  
-    .home .text-1 {
-        font-size: 30px;
-        font-weight: bold;
-        opacity: 0;  
-        position: relative;
-       
-       
-    }
-
 }
